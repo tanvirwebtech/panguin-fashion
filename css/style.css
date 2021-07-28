@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-orange: #fa804c;
+    --primary-dark: #363958;
+}
+.orange {
+    color: var(--primary-orange);
+}
+.dark {
+    color: var(--primary-dark);
+}
+h1,
+h2 {
+    font-family: "Bebas Neue";
+}
+h4,
+h5,
+a,
+p {
+    font-family: "Roboto", sans-serif;
+}
+.custom-nav-link {
+    font-weight: 500;
+    color: var(--primary-dark);
+    margin: 0 22px;
+}
+#hero-section,
+.nav-custom-bg {
+    background-color: #fff9f4;
+}
+.hero-heading {
+    font-size: 5rem;
+}
+.btn-custom {
+    padding: 18px 34px;
+    background: rgb(61, 79, 243);
+    background: linear-gradient(
+        180deg,
+        rgba(61, 79, 243, 1) 0%,
+        rgba(53, 67, 188, 1) 100%
+    );
+}
+.custom-radius {
+    border-radius: 18px;
+}
+.custom-shadow {
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 5%);
+}
+.card-thumb {
+    border-radius: 18px;
+    /* width: 315px;
+    height: 327px; */
+    background-color: #f1f1f1;
+}
+/* .card-thumb-formal-shoes {
+    /* width: 315px;
+    height: 327px; 
+}*/
+.price {
+    font-size: 36px;
+    font-weight: 700;
+}
+@media screen and (max-width: 575px) {
+    .logo {
+        width: 100%;
+    }
+    .hero-info h1 {
+        font-size: 4rem;
+    }
+    .hero-text {
+        width: 100%;
+    }
+}
